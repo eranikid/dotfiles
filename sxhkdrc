@@ -24,6 +24,7 @@ super + shift + {h,j,k,l}
 super + shift + {Left,Down,Up,Right}
 	bspwm_move {west,south,north,east}
 
+# TODO Maybe this should be bound to Super + F and cycle through tiled->floating->fullscreen
 # Alter state
 super + alt + s ; {t,shift + t,s,f}
 	bspc node --state {tiled,pseudo_tiled,floating,fullscreen}
