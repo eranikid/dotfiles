@@ -1,9 +1,6 @@
 super + Return
 	rofi -show drun -show-icons
 
-super + ctrl + o
-	toggle_picom
-
 # Reload sxhkd config
 super + Escape
 	pkill -USR1 -x sxhkd
