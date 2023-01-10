@@ -51,3 +51,6 @@ super + alt + shift + {h,j,k,l}
 
 Print
 	screenshot
+
+super + p
+	rofi-pass
